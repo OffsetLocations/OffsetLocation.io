@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OFFSET LOCATIONS</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    :root {
+      --bg: #f7f7f7;
+      --fg: #111;
+      --muted: #666;
+      --line: #d9d9d9;
+      --warn: #999;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 24px auto 80px;
+      padding: 0 16px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 0 0 4px 0;
+      letter-spacing: 0.02em;
+    }
+
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .notice {
+      margin: 12px 0 24px;
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      background: #fafafa;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 28px;
+    }
+
+    thead th {
+      text-align: left;
+      font-weight: 600;
+      font-size: 12px;
+      color: var(--muted);
+      border-bottom: 1px solid var(--line);
+      padding: 8px 6px;
+    }
+
+    tbody td {
+      padding: 10px 6px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+      font-size: 13px;
+    }
+
+    tbody tr:hover {
+      background: #f0f0f0;
+    }
+
+    .id {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 12px;
+    }
+
+    .status {
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: 0.04em;
+      color: var(--warn);
+    }
+
+    .status.active { color: #333; }
+    .status.review { color: #555; }
+    .status.retired { color: #888; }
+
+    .notes {
+      color: #333;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 48px;
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+      font-size: 11px;
+      color: var(--muted);
+    }
+
+    footer .left {
+      float: left;
+    }
+
+    footer .right {
+      float: right;
+    }
+
+    /* subtle internal marker */
+    /* archive.internal — do not index */
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>OFFSET LOCATIONS</h1>
+      <p>Documentación interna de Archivos de Offset Locations AOL</p>
+    </header>
+
+    <div class="notice">
+      Nivel de acceso: estándar • La distribución fuera del sistema no está monitoreada.
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Archivo</th>
+          <th>Ubicación</th>
+          <th>Estado</th>
+          <th>Resultado</th>
+          <th>Última revisión</th>
+          <th>Notas</th>
+          <th>Referencia audiovisual</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="id">A-01</td>
+          <td>Ubicación A</td>
+          <td class="status active">Activo</td>
+          <td>Satisfactorio</td>
+          <td>—</td>
+          <td class="notes">La ubicación respondió correctamente con la prueba realizada.</td>
+          <td class="muted">OL-A-01</td>
+        </tr>
+        <tr>
+          <td class="id">A-02</td>
+          <td>Ubicación A</td>
+          <td class="status active">Activo</td>
+          <td>Satisfactorio</td>
+          <td>2023-08</td>
+          <td class="notes">La ubicación respondió correctamente a la prueba realizada. se recomienda continuar con el proceso</td>
+          <td class="muted">OL-A-02</td>
+        </tr>
+        <tr>
+          <td class="id">A-03</td>
+          <td>Ubicación A</td>
+          <td class="status review">En revisión</td>
+          <td>Inconcluso</td>
+          <td>2023-09</td>
+          <td class="notes">Los resultados no permiten una evaluación concluyente; se autoriza la suspensión temporal de las verificaciones.</td>
+          <td class="muted">OL-A-03</td>
+        </tr>
+        <tr>
+          <td class="id">A-04</td>
+          <td>Ubicación A</td>
+          <td class="status retired">Retirado</td>
+          <td>Fallido</td>
+          <td>—</td>
+          <td class="notes muted">—</td>
+          <td class="muted">OL-A-04</td>
+        </tr>
+        <tr>
+          <td class="id">A-05</td>
+          <td>Ubicación A</td>
+          <td class="status retired">Retirado</td>
+          <td>—</td>
+          <td>—</td>
+          <td class="notes muted">—</td>
+          <td class="muted">OL-A-05</td>
+        </tr>
+        <tr>
+          <td class="id">A-06</td>
+          <td>Ubicación B</td>
+          <td class="status active">Activo</td>
+          <td>Satisfactorio</td>
+          <td>2023-11</td>
+          <td class="notes">Se reanuda el proceso en ubicación B; disposición estable. Las variaciones no afectan la operatividad.</td>
+          <td class="muted">OL-A-06</td>
+        </tr>
+        <tr>
+          <td class="id">A-07</td>
+          <td>Ubicación B</td>
+          <td class="status active">Activo</td>
+          <td>Satisfactorio</td>
+          <td>—</td>
+          <td class="notes">La ubicación continúa estable; se recomienda continuar con el proceso.</td>
+          <td class="muted">OL-A-07</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <footer>
+      <div class="left">Unidad de Registros • archivosaol@yahoo.com</div>
+      <div class="right">v1.2.7</div>
+      <div style="clear: both;"></div>
+    </footer>
+  </div>
+</body>
+</html>
